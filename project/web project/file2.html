@@ -4,99 +4,19 @@
     <meta charset="UTF-8">
     
     <title>Computer and Laptop Accessories</title>
-    <style>
-       
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-
-header {
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-header nav {
-    text-align: center;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: #333;
-}
-
-
-.hero {
-    background-image: url('../../images/contact_g.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.hero button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-.product {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.product img {
-    max-width: 100%;
-    margin-bottom: 10px;
-}
-
-
-
-footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-}
-    </style>
+    <link rel="stylesheet" href="style.css">
+   
  </head>
 <body>
+    <section id="page1" class="page1">
     <header>
         <nav>
             <ul>
-                <li><a href="file2.html">Home</a></li>
-                <li><a href="products.html" target="_blank">Products</a></li>
-               <li><a href="login.html"  target="_blank">Contact Us</a></li>
-                <li><a href="reviews.html" target="_blank">Reviews</a></li>
-                <li><a href="dsc.html"  target="_blank">Description</a></li>
+                <li><a href="#page1">Home</a></li>
+                <li><a href="#page3">Products</a></li>
+               <li><a href="#page5" >Contact Us</a></li>
+                <li><a href="#page4">Reviews</a></li>
+                <li><a href="#page2" >Description</a></li>
                 
             </ul>
         </nav>
@@ -115,5 +35,163 @@ footer {
                 <img src="../../images/lap-main.png" alt="Product 1">
             </div>                 
     </main>
+    </section>
+
+    <section id="page2" class="page2">
+       
+        <h1 id="title">Description</h1>
+        <div class="container">
+            <div class="box_text">
+                <img src="../../images/1.png"
+                    alt="">
+                <h3>Computer</h3>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available
+                    but the majority have suffered alteration in some form,
+                    by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+            </div>
+            <div class="box_text">
+                <img src="../../images/2.png"
+                    alt="">
+                <h3>Labtop</h3>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form,
+                    by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+            </div>
+            <div class="box_text">
+                <img src="../../images/3.png"
+                    alt="">
+                <h3>Tablet</h3>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form,
+                    by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+            </div>
+        </div>
+        <br>
+    
+    </section>
+
+    <section id="page3" class="page3">
+       
+        <h1 class="title">PRODUCTS</h1>
+        <div class="member">
+            <div class="prod"><img src="../../images/cd-rom.png" alt="">
+                <div class="name">
+                    <h4>DVD</h4>
+                </div>
+            </div>
+            <div class="prod"> <img src="../../images/bettery.png" alt="">
+                <div class="name">
+                    <h4>Battery</h4>
+                </div>
+            </div>
+            <div class="prod"> <img src="../../images/rams.png" alt="">
+                <div class="name">
+                    <h4>Ram</h4>
+                </div>
+            </div>
+            <div class="prod"> <img src="../../images/harddisk.png" alt="">
+                <div class="name">
+                    <h4>Hard disc</h4>
+                </div>
+            </div>
+            <div class="prod"> <img src="../../images/internet.png" alt="">
+                <div class="name">
+                    <h4>Internet</h4>
+                </div>
+            </div>
+            <div class="prod"> <img src="../../images/speakers.png" alt="">
+                <div class="name">
+                    <h4>Speakers</h4>
+                </div>
+            </div>
+            <div class="prod"> <img src="../../images/camera.png" alt="">
+                <div class="name">
+                    <h4>Camera</h4>
+                </div>
+            </div>
+            <div class="prod"> <img src="../../images/keyboard.png" alt="">
+                <div class="name">
+                    <h4>Keyboard</h4>
+                </div>
+            </div>
+            <div class="prod"> <img src="../../images/mouse.png" alt="">
+                <div class="name">
+                    <h4>Mouse</h4>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div id="btn"><button>Show More</button></div>
+    </section>
+
+    
+    <section id="page4" class="page4">
+      
+        <section class="Block">
+            <div class="title0">
+                <h4>Customer Review</h4>
+            </div>
+            <div class="customer_box1" id="321">
+                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page277/cla/assets/images/cos.png"
+                    alt="">
+                <h4>Sandy Miller</h4>
+                <p>
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id
+                </p>
+            </div>
+        
+            <div class="customer_box2" >
+                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page277/cla/assets/images/cos.png"
+                    alt="">
+                <h4>Fazit</h4>
+                <p>
+                    Die Karrong Kabellose Maus ist eine praktische und zuverlässige Wahl für diejenigen, die eine schnurlose
+                    Maus mit bequemer Wiederaufladbarkeit suchen. Mit ihren leisen Klicktasten, dem ergonomischen Design und der
+                    einfachen Handhabung bietet sie ein angenehmes und komfortables Nutzungserlebnis. Das Wiederaufladen über
+                    USB 
+                </p>
+            </div>
+        </section>
+    </section>
+
+    <section id="page5" class="page5">
+        
+        <div class="content">
+            <div class="form_title">
+                CONTACT<br>NOW
+            </div>
+    
+            <div class="form_block">
+                <form>
+                    <div class="form_items">
+                        <input type="text" id="name" name="name" placeholder="Name"><br>
+                    </div>
+                    <div class="form_items">
+                        <input type="text" id="email" name="email" placeholder="Email"><br>
+                    </div>
+                    <div class="form_items">
+                        <input type="text" id="phone" name="phone" placeholder="Phone Number"><br>
+                    </div>
+                    <div class="form_items">
+                        <textarea placeholder="Message" rows="5" cols="20"></textarea>
+                    </div>
+                    <div class="form_items">
+                        <button class="send_btn">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
  </body>
 </html>
